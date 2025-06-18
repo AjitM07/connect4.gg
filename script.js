@@ -1,6 +1,6 @@
 let playerYellow = 'Y';
 let playerRed = 'R';
-let currPlayer = playerRed;
+let currPlayer = playerYellow;
 
 let gameOver = false;
 let board;
