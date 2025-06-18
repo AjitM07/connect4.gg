@@ -19,8 +19,8 @@ window.onload = function(){
 }
 
 function updateScoreDisplay() {
-    document.getElementById("red-score").innerText = `Red 🔴 : ${redScore}`;
-    document.getElementById("yellow-score").innerText = `Yellow 🟡 : ${yellowScore}`;
+    document.getElementById("red-score").innerText = `Player 1 🔴 : ${redScore}`;
+    document.getElementById("yellow-score").innerText = `Player 2 🟡 : ${yellowScore}`;
 }
 
 
