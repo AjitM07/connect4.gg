@@ -45,7 +45,7 @@ function setGame() {
     }
 
     document.getElementById("winner").innerText = "";
-    currPlayer = playerYellow;
+    currPlayer = playerRed;
     gameOver = false; // critical!
 }
 
@@ -141,13 +141,13 @@ function setWinner(r,c){
     let winner = document.getElementById("winner");
     if(board[r][c] == playerRed)
     {
-        winner.innerText = "Red Wins !!";
+        winner.innerText = "Player 1 Wins !!";
         winner.style.color="#ff3e3e";
         redScore++;
     }
     else if(board[r][c] == playerYellow)
     {
-        winner.innerText = "Yellow Wins !!";
+        winner.innerText = "Player 2 Wins !!";
         winner.style.color="#fcbf49";
         yellowScore++;
     }
