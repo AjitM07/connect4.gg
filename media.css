@@ -77,7 +77,7 @@
     }
 }
 
-/* @media screen and (max-width:420px){
+ @media screen and (max-width:415px){
     #caption{
         font-size: 70px;
     }
@@ -131,7 +131,7 @@
         font-size: 30px;
         transition:none;
     }
-} */
+}
 
 
 /* @media(max-width:376px){
