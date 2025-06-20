@@ -77,10 +77,10 @@
     #button{
         top: 80%;
         right: 8%;
-        width: 130px;
-        height: 130px;
+        width: 120px;
+        height: 125px;
         font-size: 25px;
-        padding-left: 30px;
+        padding-left: 25px;
         filter: drop-shadow(2px 2px 4px rgb(0, 0, 0));
     }
     .popup-content{
@@ -147,5 +147,5 @@
         font-size: 30px;
         transition:none;
     }
-}  
+} 
 
