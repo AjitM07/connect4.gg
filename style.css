@@ -183,8 +183,6 @@ button:hover{
 }
 
 .footer{
-    postion:absolute;
-    bottom:0px;
     text-align: center;
     width: 100%;
     background: none;
